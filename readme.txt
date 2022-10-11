@@ -6,3 +6,6 @@ tail -n5 passwd
 
 3.	Mostrar des de la línia 11 fins al final
 tail -n +11 passwd
+
+4.	Mostrar de la línia 11 a la 20
+tail -n +11 passwd | head -n10
