@@ -12,3 +12,6 @@ tail -n +11 passwd | head -n10
 
 5.	Mostrar el primer byte (caracter) de cada  línia
 cut -b1 passwd
+
+6.	Mostrar el caratcer  1, 3 i 5 de cada línia
+cut -c 1,3,5 passwd
